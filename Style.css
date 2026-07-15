@@ -1,0 +1,101 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f7fb;
+color:#333;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.header{
+background:#0d47a1;
+color:white;
+padding:20px 0;
+text-align:center;
+}
+
+.header h1{
+font-size:38px;
+}
+
+.header p{
+margin:10px 0;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ffd54f;
+}
+
+.hero{
+background:linear-gradient(rgba(13,71,161,.8),rgba(13,71,161,.8));
+padding:100px 20px;
+text-align:center;
+color:white;
+}
+
+.hero h2{
+font-size:46px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:white;
+color:#0d47a1;
+text-decoration:none;
+font-weight:bold;
+border-radius:8px;
+margin:10px;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+section{
+padding:70px 20px;
+}
+
+h2{
+text-align:center;
+margin-bottom:20px;
+color:#0d47a1;
+}
+
+footer{
+background:#0d47a1;
+color:white;
+text-align:center;
+padding:20px;
+}
